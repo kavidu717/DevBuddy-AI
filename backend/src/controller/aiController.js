@@ -18,7 +18,7 @@ export const fixCode = async (req, res) => {
             );
         }
 
-        const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+        const model = genAI.getGenerativeModel({ model: "gemini-3.5-flash" });
 
         let prompt = `You are an expert Senior Software Engineer. The user has provided the following code that might have errors or needs optimization:\n\n${code}\n\n`;
 

@@ -3,6 +3,6 @@ import { fixCode } from "../controller/aiController.js";
 
 const router = express.Router();
 
-router.route("/").post(fixCode);
+router.route("/fix-code").post(fixCode);
 
 export default router;
